@@ -1,14 +1,18 @@
 #include<stdio.h>
+
 int main()
 {
-int i = 10;
-int j =20;
+    char ch = 'A';
+    int i = 11;
+    float f = 90.99f;
+    double d = 78.67890;
 
-i++; // increment
-j++; // decrement
+    printf("Size of of all variables\n");
+    
+    printf("%lu\n",sizeof(ch));  // 1    
+    printf("%lu\n",sizeof(i));   // 4
+    printf("%lu\n",sizeof(f));   // 4
+    printf("%lu\n",sizeof(d));   // 8
 
-printf("value of i :%d\n",i);  //11
-printf("value of j :%d\n",j); //9
-
-return 0;
+    return 0;
 }
