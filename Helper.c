@@ -1,14 +1,11 @@
-#include "Marvellous.h"
+// Function defination
 
-int main()
+int Addition(int A, int B)
 {
-    int Ans = 0;
+    return A+B;
+}
 
-    Ans = Addition(11,10);
-    printf("Addition is : %d\n",Ans);
-
-    Ans = Substraction(11,10);
-    printf("Substraction is : %d\n",Ans);
-
-    return 0;
+int Substraction(int A, int B)
+{
+    return A-B;
 }
